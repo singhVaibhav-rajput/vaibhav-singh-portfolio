@@ -1,0 +1,146 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaibhav Singh | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-800 scroll-smooth">
+
+    <!-- Navigation Bar -->
+    <nav class="flex justify-between items-center p-4 bg-gray-100 shadow-md sticky top-0 z-50">
+        <h1 class="text-2xl font-bold">Vaibhav Singh</h1>
+        <ul class="flex space-x-6 text-lg">
+            <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-600">About</a></li>
+            <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home"
+        class="flex flex-col md:flex-row items-center justify-center min-h-screen p-8 bg-gradient-to-r from-blue-100 via-white to-blue-100">
+
+        <!-- Profile Image -->
+        <div class="mb-8 md:mb-0 md:mr-10">
+            <img src="image/me.jpg" alt="Vaibhav Singh" class="w-48 h-48 object-cover rounded-full shadow-lg" />
+        </div>
+
+        <!-- Text Content -->
+        <div class="text-center md:text-left">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Hi, I'm Vaibhav Singh</h2>
+            <p class="text-xl mb-2 text-blue-700">Frontend Developer</p>
+            <p class="italic mb-4">"Turning coffee into code ☕💻"</p>
+            <a href="#" download class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+                Resume coming soon
+            </a>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" class="p-8 bg-gray-50 text-center md:text-left">
+        <br><br>
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 text-center">About Me</h2>
+
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-start">
+
+            <!-- About Text -->
+            <div>
+                <p class="mb-4">
+                    Hello! I'm <strong>Vaibhav Singh</strong>, a passionate frontend developer who loves building sleek,
+                    responsive websites. I enjoy solving problems and turning ideas into reality using code.
+                </p>
+                <p class="mb-4">
+                    My goal is to become a full-stack developer and work on impactful products that help people. When
+                    I'm not coding, I enjoy music, gaming, and exploring new tech trends.
+                </p>
+            </div>
+
+            <!-- Skills and Timeline -->
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Skills</h3>
+                <ul class="list-disc list-inside mb-4 text-gray-700">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Tailwind CSS</li>
+                    <li>C/C++
+                </ul>
+
+                <h3 class="text-xl font-semibold mb-2">Education</h3>
+                <ul class="text-gray-700">
+                    <li>Int. B.Tech-M.Tech(CSE) from<i> Gautam Buddha university</i></li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="p-8 bg-white">
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 text-center">My Projects</h2>
+
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+            <!-- Project 1: Tic Tac Toe -->
+            <div class="bg-gray-100 rounded-lg shadow-lg p-6 hover:shadow-xl transition hover:scale-105">
+                <img src="image/0X.png" alt="Tic Tac Toe" class="w-full h-40 object-cover rounded-md mb-4" />
+                <h3 class="text-xl font-semibold mb-2">Tic Tac Toe</h3>
+                <p class="mb-2 text-gray-700">A simple browser-based game built with HTML, CSS, and JavaScript. Play
+                    with a friend and enjoy!</p>
+                <!-- <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a> -->
+            </div>
+
+            <!-- Project 2: Amazon Clone -->
+            <div class="bg-gray-100 rounded-lg shadow-lg p-6 hover:shadow-xl transition hover:scale-105">
+                <img src="image/spc.png" alt="stone_paper_scissor" class="w-full h-40 object-cover rounded-md mb-4" />
+                <h3 class="text-xl font-semibold mb-2">stone_paper_scissor</h3>
+                <p class="mb-2 text-gray-700">A front-end stone_paper_scissor game website built using HTML, CSS and
+                    JavaScript.
+                    Responsive and mobile-friendly.</p>
+                <!-- <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a> -->
+            </div>
+
+            <!-- Project 3: Weather App -->
+            <div class="bg-gray-100 rounded-lg shadow-lg p-6 hover:shadow-xl transition hover:scale-105">
+                <img src="image/image (5).png" alt="Weather App" class="w-full h-40 object-cover rounded-md mb-4" />
+                <h3 class="text-xl font-semibold mb-2">Weather App</h3>
+                <p class="mb-2 text-gray-700">Fetches live weather using OpenWeatherMap API. Built with HTML, CSS, JS.
+                    Shows temperature, humidity & wind.</p>
+                <!-- //<a href="#" class="text-blue-600 hover:underline">GitHub Repo</a> -->
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="p-8 bg-gray-50">
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 text-center">Contact Me</h2>
+        <form class="max-w-xl mx-auto space-y-4">
+            <input type="text" placeholder="Name"
+                class="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                required />
+            <input type="email" placeholder="Email"
+                class="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                required />
+            <textarea placeholder="Your Message" rows="4"
+                class="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                required></textarea>
+            <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Send
+                Message</button>
+        </form>
+    </section>
+    <footer class="text-center p-4 bg-gray-200 text-gray-700">
+        © 2025 Vaibhav Singh. All rights reserved.
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
