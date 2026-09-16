@@ -1,32 +1,137 @@
-# React + TypeScript + Vite
+# Vaibhav Singh — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, and animated personal portfolio built to showcase my projects, technical skills, and development experience.
 
-Currently, two official plugins are available:
+## 🌐 Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Portfolio](https://vaibhav-singh-portfolio.vercel.app)
 
-## React Compiler
+> Replace the URL above with your actual Vercel URL after deployment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Modern dark-themed UI
+- Smooth scroll animations
+- Responsive design for desktop, tablet, and mobile
+- Animated hero section
+- Interactive project showcase
+- Experience timeline
+- Contact section with Gmail integration
+- GitHub and LinkedIn links
+- Clean component-based architecture
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+---
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+- React Icons
+- Vite
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Vercel
+
+---
+
+## 🚀 Featured Projects
+
+### 1. FlowPilot
+
+A modern SaaS landing page focused on workflow automation and productivity.
+
+**Tech:** React, TypeScript, Tailwind CSS, Framer Motion
+
+**Repository:**  
+[GitHub](https://github.com/singhVaibhav-rajput/flowpilot)
+
+---
+
+### 2. NCC Website
+
+A modern web platform developed for NCC activities and management, designed to provide information about events, achievements, activities, and cadet-related resources.
+
+**Tech:** React / JavaScript, Tailwind CSS, Node.js, Express.js
+
+**Repository:**  
+Add repository link here.
+
+---
+
+## 💼 Experience
+
+### Frontend Developer Intern — Bluestock Fintech
+
+**Mar 2026 — May 2026**
+
+Worked on frontend development tasks and contributed to building practical web interfaces as part of the internship program.
+
+**Technologies:** React, JavaScript, HTML, CSS
+
+---
+
+### Frontend Developer Intern — Woohl
+
+**Jan 2026 — Mar 2026**
+
+Worked on frontend development for an e-commerce platform, focusing on responsive interfaces and reusable React components.
+
+**Technologies:** React.js, Tailwind CSS, JavaScript
+
+---
+
+## 👨‍💻 About Me
+
+I'm Vaibhav Singh, a Computer Science Engineering student interested in building modern web applications and solving real-world problems through software.
+
+My current focus is on strengthening my skills in frontend and full-stack web development while working on practical projects.
+
+I'm particularly interested in opportunities where I can learn, contribute, and grow as a software engineer.
+
+---
+
+## 📚 Currently Learning
+
+- React.js
+- TypeScript
+- Node.js
+- Express.js
+- Full-stack development
+- Data Structures & Algorithms
+- Cloud & DevOps fundamentals
+
+---
+
+## 📫 Contact
+
+If you'd like to discuss a project, internship opportunity, collaboration, or just talk about technology, feel free to reach out.
+
+**Email:** vr20102005@gmail.com
+
+**GitHub:**  
+https://github.com/singhVaibhav-rajput
+
+**LinkedIn:**  
+Add your LinkedIn profile here.
+
+---
+
+## ⚡ Getting Started
+
+To run this portfolio locally:
+
+### Clone the repository
+
+```bash
+git clone https://github.com/singhVaibhav-rajput/vaibhav-singh-portfolio.git
