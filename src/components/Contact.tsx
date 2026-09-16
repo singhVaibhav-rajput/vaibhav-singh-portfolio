@@ -79,7 +79,7 @@ function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.35 }}
             whileHover={{ y: -3 }}
-            href="mailto:vr20102005@gmail.com"
+            href="mailto:vaibhav.singh1@zohomail.in"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative mt-10 inline-flex items-center gap-3 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-black transition-all duration-300 hover:bg-cyan-400"
