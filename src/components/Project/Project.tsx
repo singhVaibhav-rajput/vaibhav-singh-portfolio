@@ -11,7 +11,7 @@ import {
 const projects = [
   {
     number: "01",
-    img: "public/images/flowpilot.jpg",
+    img: "/images/flowpilot.jpg",
     title: "FlowPilot",
     category: "SaaS Landing Page",
     description:
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     number: "02",
-    img: "public/images/ncc.jpg",
+    img: "/images/ncc.jpg",
     title: "NCC Website",
     category: "NCC Management Platform",
     description:
